@@ -1,1 +1,14 @@
-<h1>welcome</h1>
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css%}
+        <link rel='stylsheet' href='{% static 'css/home.css' %}'>
+{% endblock %}
+
+{% block c %}
+        <title>Homepage</title>
+{% endblock  %}
+
+{% block content %}
+heyy..there this is Homepage
+{% endblock%}
